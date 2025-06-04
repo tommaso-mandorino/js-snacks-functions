@@ -5,7 +5,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 function onlyStartsWith(letter, array) {
-    let filteredArray = [];
+    const filteredArray = [];
     for (let i = 0; i < array.length; i++) {
         if (array[i][0] === letter) {
             filteredArray.push(array[i]);
